@@ -12,7 +12,7 @@ services:
      - "4001:80"
     environment:
       - PORT=80
-      - DATABASE_URL=postgresql://andy_sit722_part2_user:9IUGcdhKBrpBtnrJ5EftU9EN8ksXuhY0@dpg-cr79l9a3esus73856ht0-a.oregon-postgres.render.com/andy_sit722_part2
+      - DATABASE_URL=postgresql://ruhiejabbal_sit722_part3_db_user:cD0PSPDMCzx1EEY9E9rDKDoGHNUCuaWH@dpg-cre0ia3v2p9s73coa0v0-a.oregon-postgres.render.com/ruhiejabbal_sit722_part3_db
     restart: "no"
 
   inventory_management:
@@ -25,5 +25,5 @@ services:
      - "4002:80"
     environment:
       - PORT=80
-      - DATABASE_URL=postgresql://andy_sit722_part2_user:9IUGcdhKBrpBtnrJ5EftU9EN8ksXuhY0@dpg-cr79l9a3esus73856ht0-a.oregon-postgres.render.com/andy_sit722_part2
+      - DATABASE_URL=postgresql://ruhiejabbal_sit722_part3_db_user:cD0PSPDMCzx1EEY9E9rDKDoGHNUCuaWH@dpg-cre0ia3v2p9s73coa0v0-a.oregon-postgres.render.com/ruhiejabbal_sit722_part3_db
     restart: "no"
